@@ -649,7 +649,19 @@ function wardrobe.gui.buildSelectionSheet(selector)
 		pb:SetHeight(24)
 
 		pb:SetText(L"Preview Model")
-		pb:SetEnabled(false)
+		pb:SetEnabled(true)
+
+	selector.reset = vgui.Create("DButton", selector)
+	local reb = selector.reset
+		reb:Dock(TOP)
+		reb:SetHeight(24)
+
+		reb:SetText(L"Reset Model")
+		reb:SetEnabled(true)
+
+		function reb:DoClick()
+			wardrobe.requestModel(nil)
+		end
 
 	function l:OnRowSelected(i, r)
 		local selected = r:GetColumnText(3)
