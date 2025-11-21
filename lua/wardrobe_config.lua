@@ -113,4 +113,4 @@ wardrobe.config.maxFileSize = 256
 
 -- aggressive: Should addons which overwrite existing files of ANY kind be ignored? This is an added
 -- security measure but should never really be needed.
-wardrobe.config.aggressive = false
+wardrobe.config.aggressive = true
