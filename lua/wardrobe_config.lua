@@ -109,7 +109,7 @@ wardrobe.config.rateLimitTime = 5
 -- where a large volume of players are expected
 -- A value of 0 means no limit, this is a very bad idea and should only be used if you have
 -- restricted usage to owners or similar
-wardrobe.config.maxFileSize = 256
+wardrobe.config.maxFileSize = 50
 
 -- aggressive: Should addons which overwrite existing files of ANY kind be ignored? This is an added
 -- security measure but should never really be needed.
