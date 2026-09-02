@@ -12,13 +12,13 @@ return function(instance)
     --- Gets the player's model Workshop ID from Wardrobe.
     -- @client
     -- @return number Workshop ID. nil if the player doesn't have a workshop model
-    function player_methods:getWardrobeWorkshopID()
+    function player_methods:getWardrobeID()
         return getply(self).wardrobeWsid
     end
     --- Gets the player's model path from Wardrobe.
     -- @client
     -- @return string Model path. nil if the player doesn't have a workshop model
-    function player_methods:getWardrobeWorkshopModel()
+    function player_methods:getWardrobeModel()
         return getply(self).wardrobe
     end
 end
