@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 --- Called after a player changes their playermodel via Wardrobe
 -- @name PostPlayerChangeWardrobeModel
 -- @class hook
